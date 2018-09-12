@@ -127,3 +127,20 @@ flutter run
 ```
 flutter doctor --android-licenses
 ```
+
+---
+
+## Resources
+
+#### Dart
+* [Dart Home](https://www.dartlang.org/)
+* [Dart Docs](https://api.dartlang.org/stable/2.0.0/index.html)
+* [Dart Packages](https://pub.dartlang.org/)
+* [RxDart Docs](https://pub.dartlang.org/packages/rxdart)
+
+#### Flutter
+* [Flutter Home](https://flutter.io/)
+* [Flutter Docs](https://docs.flutter.io/)
+* [Flutter Widgets](https://flutter.io/widgets/)
+* [Flutter Casts Course](https://www.udemy.com/dart-and-flutter-the-complete-developers-guide/)
+* [Flutter Casts - Git](git@github.com:tc-playground/FlutterCasts.git) - Stephen Grinder's cool Udemy course.
