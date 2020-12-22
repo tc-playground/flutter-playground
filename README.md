@@ -6,10 +6,11 @@ A top-level repo containing some exemplar flutter projects.
 
 ## Tool chain installation
 
-Hmmmm... well this was a little bit of an ordeal. The web is is your best 
-bet, but, here are some notes for a VSCode setup for linux (skip any you already may have done):
+Hmmmm... well this was a little bit of an ordeal. The web is is your best  bet, but, here are some notes for a VSCode setup for linux (skip any you already may have done):
 
 1. __Install Java (EE)__
+
+    * Currently requires `Java8`.
 
 2. __Install Dart SDK__
     1. Install via __apt__:
@@ -109,7 +110,6 @@ bet, but, here are some notes for a VSCode setup for linux (skip any you already
 
 ```
 flutter create <project name>
-
 ```
 
 ---
@@ -128,9 +128,23 @@ flutter run
 flutter doctor --android-licenses
 ```
 
+#### Enable Web Mode
+
+```
+flutter channel beta
+flutter upgrade
+flutter config --enable-web
+```
+
 ---
 
 ## Resources
+
+* [Setup Linux](https://flutter.dev/docs/get-started/install/linux)
+
+### Android
+* [Configure Android Phone](https://developer.android.com/studio/debug/dev-options)
+* []()
 
 #### Dart
 * [Dart Home](https://www.dartlang.org/)
